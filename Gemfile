@@ -8,6 +8,9 @@ gem 'bcrypt-ruby'
 gem 'pg'
 gem 'jquery-rails'
 
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+
 group :development do
   gem 'quiet_assets'
   gem 'activerecord-import'
@@ -16,6 +19,7 @@ end
 group :development, :test do
   gem 'rspec'
   gem 'rspec-rails'
+  gem 'byebug'
 end
 
 group :test do
